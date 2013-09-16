@@ -35,6 +35,8 @@ Installation
 
     * -C for compression of communication
     * -N to not open a remote shell, just a blocking command in the shell (end connection with Ctrl-C)
+    * look [here](http://explainshell.com/explain/ssh?args=-C+-N+-L+37010%3Alocalhost%3A37010+mongo-user%40lmfdb.warwick.ac.uk) for a cool explanation
+    
   If you don't have access to this server, you can temporarily start your own mongodb server and use it locally. There is no data (obviously) but it will work.
     * Mongo locally:
     ` 
